@@ -67,10 +67,12 @@ Os testes conferem as 120 propostas únicas, as três exceções e os valores in
 
 ## Publicação na Vercel
 
-Importe `nandocafer/Lab_Fernanda`, mantenha o preset Next.js e cadastre as variáveis públicas nos ambientes Preview/Production. Cadastre segredos somente onde forem necessários. Defina no Supabase Auth as URLs de redirecionamento da Vercel. Depois execute o build e valide login, isolamento entre dois usuários, persistência após recarregar e `registrar_ganho` com a matriz.
+Produção: [https://atlas-crm-eosin.vercel.app](https://atlas-crm-eosin.vercel.app)
+
+O projeto Vercel está configurado com o preset Next.js e as variáveis públicas persistidas nos ambientes Development, Preview e Production. Cadastre segredos somente onde forem necessários. No primeiro acesso, use “Criar primeiro acesso”; depois vincule a carga inicial ao UUID desse usuário e valide isolamento entre dois usuários, persistência após recarregar e `registrar_ganho` com a matriz.
 
 ## Fontes do projeto
 
 Os requisitos vieram de `CONTEXTO-PARA-CODEX.txt` e `CONTRATO-CRM.txt`. A carga publicada em `fixtures/` veio exclusivamente de `dados/vendas_atlas_tratada.csv`; base bruta, logs e inventários não são carregados como propostas.
 
-Na preparação local não foi encontrado `CONFIGURACAO-DA-TURMA.txt`. Por isso nenhum projeto remoto foi presumido nem alterado.
+Na preparação local não foi encontrado `CONFIGURACAO-DA-TURMA.txt`. Os destinos remotos foram confirmados pelas sessões autorizadas: repositório `nandocafer/Lab_Fernanda`, projeto Supabase `AulaInteligenciaArtificial` e projeto Vercel `fernandacosta/atlas-crm`.
