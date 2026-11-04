@@ -1,0 +1,40 @@
+export const etapas = ["Qualificacao", "Proposta", "Negociacao", "Ganho", "Perdido"] as const;
+export type Etapa = (typeof etapas)[number];
+
+export type Proposta = {
+  owner_id?: string;
+  proposta_id: string;
+  versao: number;
+  vigente: boolean;
+  cliente_id: string;
+  empresa: string;
+  email_aceite?: string;
+  vendedor_id: string;
+  vendedor: string;
+  regiao: string;
+  canal: string;
+  produto_id: string;
+  produto: string;
+  data_criacao: string;
+  data_fechamento?: string | null;
+  validade: string;
+  etapa: Etapa;
+  quantidade: number;
+  preco_unitario: number;
+  desconto_pct: number;
+  custo_total: number;
+  aprovacao_desconto?: string | null;
+  probabilidade: number;
+  condicao_pagamento: string;
+  motivo_perda?: string | null;
+  proxima_acao?: string | null;
+  valor_bruto: number;
+  valor_liquido: number;
+  margem_pct: number;
+  valor_ponderado: number;
+  alerta?: string | null;
+  row_version?: number;
+  updated_at?: string;
+};
+
+export type Filtros = { busca?: string; etapa?: string; vendedor?: string; regiao?: string; produto?: string; canal?: string };

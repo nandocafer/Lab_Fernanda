@@ -1,0 +1,25 @@
+﻿cliente_id;empresa;contato;email_aceite;segmento;regiao
+CLI-001;Aurora Logistica;Contato 01;compras01@example.com;Industria;Sudeste
+CLI-002;Horizonte Alimentos;Contato 02;compras02@example.com;Varejo;Sul
+CLI-003;Vertice Equipamentos;Contato 03;compras03@example.com;Servicos;Nordeste
+CLI-004;Nucleo Servicos;Contato 04;compras04@example.com;Industria;Centro-Oeste
+CLI-005;Prisma Educacao;Contato 05;compras05@example.com;Varejo;Sudeste
+CLI-006;Cais Distribuicao;Contato 06;compras06@example.com;Servicos;Sul
+CLI-007;Orbe Tecnologia;Contato 07;compras07@example.com;Industria;Nordeste
+CLI-008;Cume Industria;Contato 08;compras08@example.com;Varejo;Centro-Oeste
+CLI-009;Lume Varejo;Contato 09;compras09@example.com;Servicos;Sudeste
+CLI-010;Trilha Energia;Contato 10;compras10@example.com;Industria;Sul
+CLI-011;Foz Embalagens;Contato 11;compras11@example.com;Varejo;Nordeste
+CLI-012;Raiz Agro;Contato 12;compras12@example.com;Servicos;Centro-Oeste
+CLI-013;Ponte Consultoria;Contato 13;compras13@example.com;Industria;Sudeste
+CLI-014;Via Papelaria;Contato 14;compras14@example.com;Varejo;Sul
+CLI-015;Norte Textil;Contato 15;compras15@example.com;Servicos;Nordeste
+CLI-016;Senda Saude;Contato 16;compras16@example.com;Industria;Centro-Oeste
+CLI-017;Brisa Mobilidade;Contato 17;compras17@example.com;Varejo;Sudeste
+CLI-018;Nexo Engenharia;Contato 18;compras18@example.com;Servicos;Sul
+CLI-019;Faro Materiais;Contato 19;compras19@example.com;Industria;Nordeste
+CLI-020;Vale Digital;Contato 20;compras20@example.com;Varejo;Centro-Oeste
+CLI-021;Eixo Ferramentas;Contato 21;compras21@example.com;Servicos;Sudeste
+CLI-022;Aurora Distribuicao;Marina Costa;marina.aurora@example.com;Industria;Sul
+CLI-023;Porto Sistemas;Contato 23;compras23@example.com;Varejo;Nordeste
+CLI-024;Rota Suprimentos;Contato 24;compras24@example.com;Servicos;Centro-Oeste

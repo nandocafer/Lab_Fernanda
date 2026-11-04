@@ -1,0 +1,4 @@
+﻿produto_id;nome;preco_unitario;custo_unitario;escopo
+PRD-01;Diagnostico Comercial;12000;6000;Mapeamento do funil e plano de melhoria
+PRD-02;Dashboard de Vendas;24000;12000;Painel comercial com indicadores e filtros
+PRD-03;Automacao Comercial;48000;25200;Registro de aceite e acompanhamento comercial
