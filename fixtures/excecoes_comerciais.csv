@@ -1,0 +1,4 @@
+﻿proposta_id;versao;linha_origem;regra;campo;encontrado;esperado;valor_liquido_brl;etapa_mantida;recomendacao
+ATL-2026-0108;1;109;Margem abaixo do piso;margem_pct;0.08333333333333333333333333333;Margem mínima de 0.25;24000.00;Proposta;"Revisar preço, escopo ou custo; manter o negócio. Aprovação de desconto não elimina o piso."
+ATL-2026-0109;1;110;Desconto acima de 15%;"desconto_pct; aprovacao_desconto";"0.2; aprovação ausente";"Diretoria específica e revisão; sem ganho automático";9600.00;Negociacao;"Encaminhar à diretoria; não alterar desconto nem preencher aprovação sem evidência."
+ATL-2026-0110;1;111;Validade vencida;validade;2026-10-15;Data vigente, inclusive, em 31/10/2026;22800.00;Qualificacao;"Revalidar condições e versão antes do aceite; manter na carteira com alerta."
